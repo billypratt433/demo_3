@@ -21,7 +21,7 @@ jobs:
       with:
         java-version: 14
         
-    - name: Cache the Maven packages to speed up build
+    - name: Cache the Maven packages to speed up builds
     - uses: actions/cache@v1
       with:
         path: ~/.m2
